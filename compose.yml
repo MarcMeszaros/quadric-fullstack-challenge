@@ -14,7 +14,7 @@ services:
       timeout: 5s
       retries: 5
 
-  # This can be
+  # Can be used to cache things/reduce hits on DB
   redis:
     image: docker.dragonflydb.io/dragonflydb/dragonfly:latest
     command: ["--default_lua_flags=allow-undeclared-keys"]
@@ -29,6 +29,8 @@ services:
       retries: 3
       start_period: 5s
 
+  # If you want to simulate sending the emails, you can use this SMTP server to preview
+  # the emails that would be sent.
   mailpit:
     image: docker.io/axllent/mailpit:latest
     ports:

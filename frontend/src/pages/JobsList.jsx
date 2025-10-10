@@ -3,7 +3,7 @@ function JobsList() {
     <div>
       <h1>Jobs List</h1>
       <div id="jobs-list">
-        {/* Placeholder for list of job records */}
+        Show job records here
       </div>
     </div>
   )
