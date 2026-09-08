@@ -6,12 +6,12 @@ This challenge is designed to assess your ability to build a simple remote job s
 
 ## Time Guidelines
 
-***The challenge requirements and criteria are intentionally open ended to allow 4+ hours of work. The goal is to see what you prioritize and can accomplish in a given time constraint.***
+***The challenge requirements and criteria are intentionally open ended to allow more than 4 hours of work. The goal is to see what you prioritize and can accomplish in a given time constraint.***
 
 - **Core Requirements:** ~1-2 hours
 - **With Stretch Goals:** ~3-4 hours
 
-_These estimates are calibrated for mid-senior engineers comfortable with Go and React. If you're less familiar with one stack, focus on quality in the stack you know best._
+_These estimates assume AI-assisted development by an engineer with a few years of experience and working knowledge of Go and React. Without AI assistance, expect the core requirements alone to take 2-3 hours and treat the stretch goals as optional. If you're less familiar with one stack, focus on quality in the stack you know best._
 
 **Please don't spend more than 4 hours total.** We value quality over quantity — a polished implementation of core features is better than a rushed attempt at everything.
 

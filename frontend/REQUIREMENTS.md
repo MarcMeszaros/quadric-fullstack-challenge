@@ -17,8 +17,8 @@
 - Use React hooks (useState, useEffect)
 - Implement routing (React Router or similar)
 - Handle loading and error states
-- Form validation (email format, password length)
-- All API requests should be made to the backend at `http://localhost:8080`:
+- Form validation (required fields, allowed job actions)
+- Make API requests to relative `/api/...` paths; the Vite dev server proxies them to the backend at `http://localhost:8080` (see `vite.config.js`)
 
 ## Must Have (Core Requirements)
 
