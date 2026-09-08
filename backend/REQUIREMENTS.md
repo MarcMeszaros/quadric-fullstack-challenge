@@ -12,7 +12,7 @@ A runner acquires jobs from the backend by polling the acquire endpoint.
 ## Endpoints
 
 - `POST /api/runner` to register a runner
--	`GET /api/jobs/acquire` to aquire a job
+-	`GET /api/jobs/acquire` to acquire a job
 -	`POST /api/jobs` create a new job for the runner
 -	`GET /api/jobs` list the pending jobs
 -	`POST /api/jobs/<job_id>/logs` receive and save logs `Accept: text/plain`

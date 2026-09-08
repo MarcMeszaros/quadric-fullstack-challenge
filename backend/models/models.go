@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// Runner is responsible for execuring remote task actions.
+// Runner is responsible for executing remote task actions.
 type Runner struct {
 	ID          string    `json:"id"`
 	CreatedAt   time.Time `json:"created_at"`
@@ -19,15 +19,15 @@ func (r *Runner) Register(ctx context.Context) error {
 }
 
 type Job struct {
-	ID         uint64     `json:"id`
-	CreatedAt  time.Time  `json:"created_at`
-	StartedAt  *time.Time `json:"started_at,omitempty`
-	FinishedAt *time.Time `json:"finished_at,omitempty`
-	Status     string     `json:"status`
+	ID         uint64     `json:"id"`
+	CreatedAt  time.Time  `json:"created_at"`
+	StartedAt  *time.Time `json:"started_at,omitempty"`
+	FinishedAt *time.Time `json:"finished_at,omitempty"`
+	Status     string     `json:"status"`
 
 	Action string `json:"action"`
 	Notes  string `json:"notes,omitempty"`
-	Logs   string `json:"logs,omitempty`
+	Logs   string `json:"logs,omitempty"`
 }
 
 func (j *Job) Register(ctx context.Context) error {
