@@ -11,6 +11,7 @@
 
 1. List Jobs (display job ID, task type, status, created timestamp and notes)
 2. Create Job (specify job action & optional user notes)
+   - Supported actions are `calculate_pi` and `lorem_ipsum` (see `/runner/README.md`)
 
 ## Requirements
 
