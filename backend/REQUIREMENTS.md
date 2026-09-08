@@ -34,6 +34,7 @@ Supported job actions are `calculate_pi` and `lorem_ipsum` (see `/runner/README.
 
 - Use database (PostgreSQL provided via container - see [Tips](../CHALLENGE.md#tips))
   - Connection string: `postgres://jobsuser:jobspass@localhost:5432/jobsdb?sslmode=disable`
+  - A `db.Connect` stub is provided in `db/db.go`; add a driver of your choice and decide how the connection reaches your handlers and models
 - Proper error handling and HTTP status codes
 - Use standard library or popular routers (fiber, chi, gin, gorilla/mux)
 - JSON responses for the non log related endpoints
